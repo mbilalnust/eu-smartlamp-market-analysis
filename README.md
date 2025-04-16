@@ -64,7 +64,7 @@ The project creates three visualizations:
 1. **Market Share Pie Chart**: Shows the relative market share distribution among the top 5 countries
 2. **Top 5 Markets Bar Chart**: Highlights the countries with the largest estimated market potential
 3. **Market Segmentation Scatter Plot**: Visualizes countries based on hotel capacity and smart TV adoption rates, grouped into three market segments:
-   - Primary Target Markets (High-High)
+   - Primary Target Markets (High-High) ---> main target of our assignment.
    - Secondary Target Markets (High-Low)
    - Markets to Avoid Initially (Low-Low)
 
