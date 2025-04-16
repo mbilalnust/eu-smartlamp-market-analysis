@@ -1,4 +1,4 @@
-# Smart Lamp Market Analysis
+# EU Smart Lamp Market Analysis
 
 ## Overview
 
