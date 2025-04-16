@@ -42,7 +42,8 @@ def load_and_process_data():
     beds_df_2016 = beds_df_2016[~beds_df_2016['geo'].str.contains('EA|EU')]
     beds_df_2016['OBS_VALUE'] = beds_df_2016['OBS_VALUE'].replace(':', np.nan).astype(float)
     beds_df_2016 = beds_df_2016.dropna(subset=['OBS_VALUE'])
-    beds_df_2016 = beds_df_2016[~beds_df_2016['geo'].str.contains('u|bu')]
+    beds_df_2016 = beds_df_2016[~beds_df_2016['OBS_FLAG'].isin(['u', 'bu', 'b'])]
+    
     
     # Process TV dataset
     tv_df = tv_df[['geo','ind_type','indic_is', 'unit', 'TIME_PERIOD','OBS_VALUE', 'OBS_FLAG']]
