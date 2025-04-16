@@ -1,4 +1,4 @@
-# European Hotel Smart TV Market Analysis
+# Smart Lamp Market Analysis
 
 ## Overview
 
