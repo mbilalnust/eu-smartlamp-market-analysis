@@ -68,6 +68,13 @@ The project creates three visualizations:
    - Secondary Target Markets (High-Low)
    - Markets to Avoid Initially (Low-Low)
 
+## Outpput
+![Top 5 market size](https://github.com/mbilalnust/eu-smartlamp-market-analysis/blob/main/output_data/top_5_market_size.png)
+![Market Share Pie](https://github.com/mbilalnust/eu-smartlamp-market-analysis/blob/main/output_data/market_share_pie.png)
+![Market Share segmentation using Kmeans](https://github.com/mbilalnust/eu-smartlamp-market-analysis/blob/main/output_data/market_segmentation.png)
+
+
+
 ## Assumptions taken during analysis
 - The "% of individuals" is the share of the general population who use a TV to access the internet, not specifically hotel guests. This assumes hotel guests are similar to the general population in their tech habits.
 - Bed-places ≠ Unique Guests: "Bed-places" is the number of beds available, not the number of guests per year. Actual guest numbers could be higher (if beds are used by multiple guests per year) or lower (if occupancy is low).
